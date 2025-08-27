@@ -21,6 +21,7 @@ joblib==1.4.2
 fastapi==0.115.6
 uvicorn[standard]==0.32.0
 boto3==1.35.75
+PyYAML==6.0.2
 
 # Airflow pin (install separately via extras); comment out if not needed directly here
 apache-airflow==2.10.3

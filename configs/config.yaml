@@ -1,0 +1,16 @@
+aws:
+  access_key_id: ""
+  secret_access_key: ""
+  region: "us-east-1"
+
+s3:
+  bucket: "ml-models-bucket"
+  model_key: "model.joblib"
+
+paths:
+  data: "src/input/dataset.parquet"
+  model_local: "models/model.joblib"
+
+training:
+  target_column: "target"
+  upload_to_s3: false

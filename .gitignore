@@ -27,3 +27,7 @@ airflow/tmp/
 # CatBoost/TF outputs
 src/catboost_info/
 *.tfevents
+
+# Local configs overrides
+configs/local.yaml
+configs/*.secret.*
