@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual envs
+venv/
+.env
+
+# Data and models
+src/input/
+models/
+*.parquet
+*.csv
+
+# Airflow local state
+airflow/logs/
+airflow/tmp/
+
+# OS
+.DS_Store
+
+# CatBoost/TF outputs
+src/catboost_info/
+*.tfevents
